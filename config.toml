@@ -2,3 +2,19 @@
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
+
+
+[params]
+user = "naemi"
+hostname = "pages.github.io"
+published = false
+readingTime = false
+
+  [params.author]
+    name = "naemi florin"
+
+[menu]
+  [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "/projects"
