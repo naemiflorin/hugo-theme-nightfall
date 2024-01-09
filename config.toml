@@ -3,7 +3,7 @@
     extended = true
     min = "0.80.0"
 baseURL = "https://naemiflorin.github.io/art/"
-canonifyURLs = false
+canonifyURLs = true
 
 [params]
 user = "naemi"
