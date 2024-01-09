@@ -2,7 +2,7 @@
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
-baseURL = https://naemiflorin.github.io/art/
+baseURL = "https://naemiflorin.github.io/art/"
 
 [params]
 user = "naemi"
