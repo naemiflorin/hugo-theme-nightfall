@@ -14,6 +14,22 @@ readingTime = false
   [params.author]
     name = "naemi florin"
 
+  [[params.social]]
+    key = 0
+    name = "github"
+    url = "https://github.com/naemiflorin/"
+    icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+
+  [[params.social]]
+    key = 1
+    name = "instagram"
+    url = "https://instagram.com/naemiflorin/"
+
+  [[params.social]]
+    key = 2
+    name = "linkedin"
+    url = "https://se.linkedin.com/in/naemiflorin"
+
 [menu]
   [[menu.header]]
     name = "about"
