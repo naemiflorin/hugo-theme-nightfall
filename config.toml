@@ -16,6 +16,10 @@ readingTime = false
 
 [menu]
   [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+  [[menu.header]]
     name = "projects"
     weight = 0
     url = "/projects"
