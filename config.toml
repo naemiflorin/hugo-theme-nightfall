@@ -3,18 +3,46 @@
     extended = true
     min = "0.80.0"
 
+baseURL = "https://naemiflorin.se"
+canonifyURLs = true
 
 [params]
-user = "naemi"
-hostname = "pages.github.io"
+user = "naemiFLORIN"
+#hostname = "pages.github.io"
 published = false
 readingTime = false
 
   [params.author]
     name = "naemi florin"
 
+[[params.social]]
+key = 1
+name = "github"
+url = "https://github.com/naemiflorin/"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+
+[[params.social]]
+key = 0
+name = "instagram"
+url = "https://instagram.com/naemiflorin/"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://se.linkedin.com/in/naemiflorin"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "naemiflorin@gmail.com"
+
 [menu]
+
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
   [[menu.header]]
     name = "projects"
-    weight = 0
+    weight = 1
     url = "/projects"
