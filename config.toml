@@ -3,7 +3,10 @@
     extended = true
     min = "0.80.0"
 baseURL = "https://naemiflorin.se/"
-canonifyURLs = true
+#canonifyURLs = true
+
+languageCode = 'en-SE'
+theme = "nightfall"
 
 [params]
 user = "naemiflorin"
