@@ -2,12 +2,11 @@
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
-
-baseURL = "https://naemiflorin.se"
+baseURL = "https://naemiflorin.se/"
 canonifyURLs = true
 
 [params]
-user = "naemiFLORIN"
+user = "naemiflorin"
 #hostname = "pages.github.io"
 published = false
 readingTime = false
@@ -37,7 +36,6 @@ name = "email"
 url = "naemiflorin@gmail.com"
 
 [menu]
-
   [[menu.header]]
     name = "about"
     weight = 0
