@@ -21,7 +21,6 @@ readingTime = false
 key = 1
 name = "github"
 url = "https://github.com/naemiflorin/"
-icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
 
 [[params.social]]
 key = 0
